@@ -1,0 +1,23 @@
+/* Color Theme 1:
+
+362E42 - Darkest Black/Red
+252F3E - Dark Gray/Blue
+6586B0 - Meduim Gray/Blue
+9BB1CB - Cloudy Sky/Blue
+BBC8D7 - Light Cloudy Sky/Blue
+*/
+
+
+
+.jumbotron {
+    background-color: transparent;
+    background-image:url("../img/903f82dd-waptaicefield-ab-taylorburk2_1000000000000000000028.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.PackUP-Title {
+    text-align: center;
+
+}
