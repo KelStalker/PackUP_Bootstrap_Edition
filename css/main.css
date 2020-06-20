@@ -37,7 +37,6 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
-  
   .navbar a:hover {
     background: #D2D7D9;
     color: #011126;
@@ -52,16 +51,28 @@ body {
     color: #D2D7D9;
 }
 .PackUP-Title {
-    color: #D2D7D9;
+    color: #362E42;
 }
 
 #TypewriterText {
 color: #02BADC;
 }
 
-
 #Section1 {
     text-align: center;
+}
+
+#Article1{
+    height: auto;
+    /* background-image: url(../img/IPhone7pic.jpg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+#IPhone7Pic {
+    max-width: 100%;
+
 }
 
 #Article1, #Article3 {
