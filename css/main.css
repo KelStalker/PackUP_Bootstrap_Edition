@@ -21,7 +21,8 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: r;
+    background-color: #011126;
+    color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -58,17 +59,17 @@ body {
 color: #02BADC;
 }
 
-.Container {
-    background-color: transparent;
+
+#Section1 {
     text-align: center;
 }
-#Slogan {
-    background-image: url(../img/IPhone7pic.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
-    backface-visibility: hidden;
-    text-align: center;   
+
+#Article1, #Article3 {
     color: white;
-    vertical-align: middle;
-    height: 300px;
+    background-color: #011126;
+}
+
+#Article2, #Article4 {
+    color: #011126;
+    background-color: white;
 }
