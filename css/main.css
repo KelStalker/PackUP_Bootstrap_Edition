@@ -14,9 +14,12 @@ BBC8D7 - Light Cloudy Sky/Blue
 #D2D7D9 - Off White
  */
 
+
+
 body {
     background-image:url("../img/903f82dd-waptaicefield-ab-taylorburk2_1000000000000000000028.jpg");
     background-attachment: fixed;
+
 }
 
 .navbar {
@@ -62,9 +65,8 @@ color: #02BADC;
     text-align: center;
 }
 
-#Article1{
+#Article1 {
     height: auto;
-    /* background-image: url(../img/IPhone7pic.jpg); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
@@ -75,12 +77,30 @@ color: #02BADC;
 
 }
 
-#Article1, #Article3 {
+#Article3 {
     color: white;
     background-color: #011126;
 }
 
-#Article2, #Article4 {
+#Article1, #Article2, #Article4 {
     color: #011126;
     background-color: white;
+}
+
+#Article5 {
+    color: yellow;
+    background-color: red;
+}
+
+#SignUpForm {
+    color: white;
+    background-color: #252F3E;
+
+}
+.jumbotron{
+    color: tomato;
+}
+
+#kel-lead{
+    color: yellowgreen;
 }
