@@ -64,6 +64,7 @@ color: #02BADC;
 
 #Section1 {
     text-align: center;
+
 }
 
 #Article1 {
@@ -88,18 +89,10 @@ color: #02BADC;
     background-color: white;
 }
 
-#Article5 {
-    color: yellow;
-    background-color: red;
-}
-
 #SignUpForm {
     color: white;
     background-color: #252F3E;
 
-}
-.jumbotron{
-    color: tomato;
 }
 
 #kel-lead{
