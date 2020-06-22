@@ -13,11 +13,11 @@ BBC8D7 - Light Cloudy Sky/Blue
 #688EA6 - Light Blue
 #D2D7D9 - Off White
  */
-asd;lkfjasfd
+
 
 body{
-background-image:url("../img/903f82dd-waptaicefield-ab-taylorburk2_1000000000000000000028.jpg");
-background-attachment: fixed;
+/* background-image:url("../img/903f82dd-waptaicefield-ab-taylorburk2_1000000000000000000028.jpg"); */
+/* background-attachment: fixed; */
 }
 
 
@@ -67,8 +67,21 @@ background-attachment: fixed;
 color: #02BADC;
 }
 
-#Section1 {
+#Section1, #Section2 {
     text-align: center;
+}
+
+#Section1, #Jumbotron {
+    background-image:url("../img/Outdoorsman_Collage.jpg");
+    background-attachment: fixed;
+}
+
+#Section2 {
+    background-image:url("../img/Mountains_Day.jpg");
+    background-attachment: fixed;
+}
+
+
 }
 
 #TRANSPARENT-Article {
