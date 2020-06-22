@@ -15,6 +15,9 @@ BBC8D7 - Light Cloudy Sky/Blue
  */
 
 
+.indexTEST body {
+    background-color: red;
+}
 
 body {
     background-size: cover;
@@ -72,6 +75,8 @@ color: #02BADC;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
+    color: white;
+    background-color: #011126;
 }
 
 #IPhone7Pic {
@@ -79,16 +84,34 @@ color: #02BADC;
 
 }
 
-#Article3 {
-    color: white;
-    background-color: #011126;
-}
-
-#Article1, #Article2, #Article4 {
+#Article1,  #Article4 {
     color: #011126;
     background-color: white;
+    border: solid white;
+    padding: 30px;
 }
 
+#Article2, #Article7 {
+    color: white;
+    background-color: #3F6F8C;
+    border: solid #3F6F8C;
+    padding: 30px;
+}
+
+#Article3, #Article6 {
+    color: white;
+    background-color: #011126;
+    border: solid #011126;
+    padding: 30px;
+    }
+
+#Article5 {
+    color: orange;
+    background-color: transparent;
+    padding: 30px; 
+}
+
+}
 #SignUpForm {
     color: white;
     background-color: #252F3E;
