@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change background on scroll</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body { 
+      margin: 0;
+      padding: 0;
+    }
+
+    section#hero {
+      height: 800px;
+    }
+
+    section#hero > div {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      transition: opacity 2s ease;
+    }
+
+    #lion {
+      background-image: url(https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+      opacity: 1;
+    }
+    #elephant {
+      background-image: url(https://images.unsplash.com/photo-1507461476191-0ed4f9f18533?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+      opacity: 0;
+    }
+  </style>
 </head>
 <body>
-    
+  <section class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio commodi explicabo consectetur voluptatem quas aliquid sit illo temporibus culpa quos tenetur, eaque libero, voluptatum officia ipsam voluptatibus magni saepe at?
+  Dolor omnis nihil doloribus facere, totam porro, vitae voluptatum enim accusantium perferendis fugit accusamus dignissimos. Et nobis commodi laboriosam vitae exercitationem, cumque tempora nulla ullam, nisi ab laborum sequi distinctio.
+  Aut nam inventore vero non nulla repellendus fugit, eligendi libero blanditiis molestias obcaecati ducimus eos illum consectetur. Optio non expedita, quasi omnis nisi necessitatibus tempore tempora accusamus distinctio eos eaque.
+  Ad sapiente sunt et tempora accusamus modi quasi non esse, quas unde dignissimos placeat, ut quibusdam nobis. Adipisci fuga asperiores, ratione autem velit placeat vitae, repellendus nemo vero consectetur tenetur!
+  Vel facilis ad animi. Perferendis blanditiis molestias aspernatur quae odio sit dolor similique facere, debitis sapiente doloribus omnis. Modi necessitatibus iure deserunt voluptates incidunt, reprehenderit nam magni culpa quidem quibusdam.
+  Quaerat labore culpa maiores nemo, necessitatibus cupiditate distinctio in eum corrupti cum delectus quis quae provident neque cumque dolor facilis quod, nobis laborum commodi reprehenderit magnam excepturi quasi? Mollitia, laboriosam.
+  Exercitationem odio ratione at neque. Distinctio qui commodi dolore libero, asperiores optio, sint id ex corporis consequatur voluptates, debitis harum necessitatibus ullam obcaecati ad odio nemo neque illo inventore assumenda.
+  Quidem accusamus laborum debitis soluta! Animi fuga fugit beatae, quibusdam illum ipsum eveniet quia laudantium, qui rem maxime, vitae veniam rerum id dolorum blanditiis quo quis quidem veritatis quas eius.
+  Suscipit maiores quod dolorum minima hic in quis expedita labore amet aperiam impedit doloremque error, inventore odit id mollitia vitae aspernatur dolorem eius nulla distinctio perferendis. Iste laudantium delectus voluptates.
+  Voluptatem, assumenda reprehenderit sit dolores perferendis rerum officiis laboriosam iste ratione! Et optio, dolor minus nam veniam cupiditate nisi nostrum pariatur a debitis autem voluptate cum mollitia unde voluptatem id.</section>
+  <section id="hero">
+    <div id="lion"></div>
+    <div id="elephant"></div>
+  </section>
+  <section class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat odit animi sequi? Impedit, deserunt sapiente exercitationem amet quam rerum iure nemo, dignissimos cupiditate voluptates, in hic eaque dolorum sed repellendus!
+  Quaerat, ipsa corporis, qui blanditiis, aspernatur repellat officia a obcaecati rem possimus vitae aperiam. Deleniti tempore quaerat quod quasi voluptate. Nulla voluptatibus in totam cumque aliquid nostrum est voluptate debitis!
+  Similique perspiciatis cum sit atque maiores repellat, asperiores est nesciunt consequuntur nostrum molestiae blanditiis eligendi explicabo maxime possimus fugiat, error odit minus doloribus! Sapiente praesentium rem explicabo voluptatum molestias tempore.
+  Doloremque error explicabo, asperiores cum quibusdam, accusantium vel eligendi, adipisci libero praesentium quasi sit iure amet unde. Maxime, consequatur alias natus libero dolorem molestias modi vitae ex magni cumque tempore.
+  Placeat officia quibusdam, sapiente adipisci quis iusto nostrum laboriosam voluptas rerum minus labore suscipit nisi molestias perferendis delectus? Aut ut iste quidem commodi ad dignissimos numquam repellat autem fugit aliquid!
+  Provident, voluptatibus repellendus exercitationem temporibus incidunt, vitae asperiores eius distinctio et saepe labore, accusamus sequi cumque excepturi. Ab voluptate amet adipisci, molestiae illo minima eligendi odit quod obcaecati maiores perspiciatis!
+  Pariatur maxime tenetur nulla, enim quas, vero dolores a voluptatibus nemo fugiat tempora harum accusamus perspiciatis esse quisquam iure eveniet alias! Temporibus quae voluptatem possimus aut est commodi praesentium voluptatibus.
+  Quam earum exercitationem harum, expedita est dolorum rerum necessitatibus! Nihil fugit aliquid beatae debitis illum eveniet ipsum, iusto dolorem culpa molestiae, sapiente at possimus doloremque? Id unde fuga magnam vitae.
+  Dignissimos magni vel veniam sequi incidunt ratione, eos quidem perspiciatis quisquam suscipit ipsa ducimus dolore exercitationem vero eius quo, minima consequuntur porro. A, maxime nemo dicta exercitationem quas repellendus eum.
+  Ea ducimus ipsum harum provident accusamus perspiciatis reiciendis nesciunt sit illo non fugit expedita quam est ipsa eum consequuntur iusto quo quod, incidunt earum cum voluptates similique! Pariatur, ratione molestiae?</section>
+
+  <script>
+    const heroElem = document.querySelector('#hero');
+    const lionElem = document.querySelector('#lion');
+    const elephantElem = document.querySelector('#elephant');
+
+    const scrollAmount = -500;
+    window.addEventListener('scroll', (event) => {
+      const { top } = heroElem.getBoundingClientRect();
+      const heroInView = top - window.innerHeight < scrollAmount;
+      lionElem.style.opacity = +!heroInView;
+      elephantElem.style.opacity = +heroInView;
+    });
+  </script>
+
 </body>
 </html>

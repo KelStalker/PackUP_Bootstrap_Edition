@@ -17,6 +17,7 @@ BBC8D7 - Light Cloudy Sky/Blue
 
 
 body {
+    background-size: cover;
     background-image:url("../img/903f82dd-waptaicefield-ab-taylorburk2_1000000000000000000028.jpg");
     background-attachment: fixed;
 
