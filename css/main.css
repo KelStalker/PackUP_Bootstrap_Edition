@@ -55,6 +55,22 @@ BBC8D7 - Light Cloudy Sky/Blue
     font-size: larger;
     color: #D2D7D9;
     height: 100vh;
+
+    background-image:url("../img/Outdoorsman_Collage.jpg");
+    background-attachment:fixed;
+    display:block;
+    /* background:rgba(255,255,255,0.06); */
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    border-radius:0px;
+    width:100%;
+    /* height:282px; */
+    position:relative;
+
 }
 .PackUP-Title {
     color: #362E42;
@@ -155,4 +171,26 @@ color: #02BADC;
 
 #kel-lead{
     color: yellowgreen;
+}
+
+#Article7 {
+    display: flex;
+    height: auto;
+    background-image: linear-gradient(white, #3F6F8C);
+    padding: 35px;
+}
+
+#Article7 img {
+    
+
+}
+
+.make-circular {
+    border-radius: 50%;
+    width: 93px;
+    height: 101px;
+    
+}
+.comments {
+    padding: 10px;
 }
