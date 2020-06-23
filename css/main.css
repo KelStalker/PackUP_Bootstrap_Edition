@@ -88,6 +88,7 @@ color: #02BADC;
 #Section1, #Jumbotron {
 
     background-image:url("../img/Mountains_Day.jpg");
+    background-size: cover;
     background-attachment: fixed;
     background-size: 100vw;
     background-repeat:no-repeat;
@@ -101,7 +102,7 @@ color: #02BADC;
     background-color:transparent;
     border: dotted red;
     border-width: 3vh;
-    height: 33vh;
+    height: 45vh;
 }
 
 #Article1 {
