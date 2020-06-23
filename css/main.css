@@ -54,9 +54,9 @@ BBC8D7 - Light Cloudy Sky/Blue
     background-repeat: no-repeat;
     background-size: auto;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
     color: #D2D7D9;
-    height: 100vh;
+    height: 80vh;
 }
 
 #Section2{
@@ -92,16 +92,14 @@ color: #02BADC;
     background-image:url("../img/Outdoorsman_Collage.jpg");
     background-attachment:fixed;
     display:block;
-    /* background:rgba(255,255,255,0.06); */
     background-repeat:no-repeat;
     background-position:center center;
     background-size:cover;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:0px;
-    border-radius:0px;
-    width:100%;
-    /* height:282px; */
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+    /* margin-bottom:0px; */
+    /* border-radius:0px; */
+    /* width:100%; */
     position:relative;
 }
 
@@ -139,14 +137,14 @@ color: #02BADC;
     padding: 30px;
 }
 
-#Article2, #Article7 {
+#Article2 {
     color: white;
     background-color: #3F6F8C;
     border: solid #3F6F8C;
     padding: 30px;
 }
 
-#Article3, #Article6 {
+#Article3 {
     color: white;
     background-color: #011126;
     border: solid #011126;
@@ -159,7 +157,14 @@ color: #02BADC;
     padding: 30px; 
 }
 
+#Article6{
+    color: black;
+    background-color: white;
+    border: solid white;
+    padding: 30px;
 }
+
+
 #SignUpForm {
     color: white;
     background-color: #252F3E;
