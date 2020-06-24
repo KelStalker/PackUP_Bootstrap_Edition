@@ -18,20 +18,16 @@ BBC8D7 - Light Cloudy Sky/Blue
 #3F5773 - BACKGROUND BLUE (from original WAPTA site)  ** USE THIS **
 ***************************/
 
-
-/* .parallax-background {
-    background-size: cover;
-    background-image:url("../img/903f82dd-waptaicefield-ab-taylorburk2_1000000000000000000028.jpg");
-    background-attachment: fixed;
-}
- */
 .navbar {
+
+    color: red;
+background-color: #3F5773;
     /* overflow: hidden; */
-    background-color: #011126;
-    color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    
+    /* color: white; */
+    /* position: fixed; */
+    /* top: 0; */
+    /* width: 100%; */
   }
   
   .navbar a {
@@ -39,9 +35,9 @@ BBC8D7 - Light Cloudy Sky/Blue
     display: block;
     color: #D2D7D9;
     text-align: left;
-    padding: 14px 16px;
+    padding: 0.5em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.1em;
   }
   .navbar a:hover {
     background: #D2D7D9;
@@ -51,9 +47,9 @@ BBC8D7 - Light Cloudy Sky/Blue
 .jumbotron {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-size: auto;
+    /* background-size: auto; */
     text-align: center;
-    font-size: xx-large;
+    font-size: 200px;
     color: #D2D7D9;
     height: 80vh;
 }
@@ -74,7 +70,6 @@ BBC8D7 - Light Cloudy Sky/Blue
     background-image:url("../img/Outdoorsman_Collage.jpg");
     background-attachment:fixed;
     display:block;
-    /* background:rgba(255,255,255,0.06); */
     background-repeat:no-repeat;
     background-position:center center;
     background-size:cover;
@@ -92,16 +87,8 @@ BBC8D7 - Light Cloudy Sky/Blue
     background-size: cover;
     background-attachment: fixed;
     background-repeat:no-repeat;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
-
-/* .PackUP-Title {
-    color: #362E42;
-}
-
-#TypewriterText {
-color: #02BADC;
-} */
 
 #Section1, #Section2 {
     text-align: center;
@@ -125,7 +112,7 @@ color: #02BADC;
     color: #011126;
     background-color: white;
     border: solid white;
-    padding: 30px;
+    padding: 5em;
 }
 
 #Article3 {
