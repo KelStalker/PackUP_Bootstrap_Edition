@@ -49,13 +49,14 @@ background-color: #3F5773;
     background-repeat: no-repeat;
     /* background-size: auto; */
     text-align: center;
-    font-size: 200px;
+    font-size: 1;
     color: #D2D7D9;
     height: 80vh;
 }
 
 #SignUpBelow {
-    font-size: medium;
+    font-size: 1em;
+    padding: 2em;
 }
 
 .btn-primary {
@@ -64,7 +65,6 @@ background-color: #3F5773;
     border-color: white;
     border-radius: 24px;
 }
-
 
 #Section2{
     background-image:url("../img/Outdoorsman_Collage.jpg");
@@ -87,7 +87,7 @@ background-color: #3F5773;
     background-size: cover;
     background-attachment: fixed;
     background-repeat:no-repeat;
-    /* opacity: 0.8; */
+    opacity: 0.8;
 }
 
 #Section1, #Section2 {
@@ -105,14 +105,14 @@ background-color: #3F5773;
 }
 
 #IPhone7Pic {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 #Article1, #Article2, #Article4 {
     color: #011126;
     background-color: white;
     border: solid white;
-    padding: 5em;
+    padding: 3em;
 }
 
 #Article3 {
@@ -158,7 +158,7 @@ background-color: #3F5773;
 }
 
 .comments {
-    padding: 10px;
+    padding: 4em;
 }
 
 #FormEmail {
