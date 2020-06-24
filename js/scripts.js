@@ -43,5 +43,5 @@ function typeWriter() {
     document.getElementById("TypewriterText").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
-  }
+  }}
 }
