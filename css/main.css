@@ -27,7 +27,7 @@ BBC8D7 - Light Cloudy Sky/Blue
 }
 
 .navbar {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #011126;
     color: white;
     position: fixed;
@@ -72,34 +72,6 @@ BBC8D7 - Light Cloudy Sky/Blue
     margin-bottom:0px;
     border-radius:0px;
     width:100%;
-    /* height:282px; */
-    position:relative;
-}
-
-.PackUP-Title {
-    color: #362E42;
-}
-
-#TypewriterText {
-color: #02BADC;
-}
-
-#Section1, #Section2 {
-    text-align: center;
-}
-
-#Section2 {
-    background-image:url("../img/Outdoorsman_Collage.jpg");
-    background-attachment:fixed;
-    display:block;
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size:cover;
-    /* margin-left:auto; */
-    /* margin-right:auto; */
-    /* margin-bottom:0px; */
-    /* border-radius:0px; */
-    /* width:100%; */
     position:relative;
 }
 
@@ -111,9 +83,16 @@ color: #02BADC;
     background-repeat:no-repeat;
 }
 
-#TRANSPARENT-Article {
-    background-color:transparent;
-    height: 45vh;
+/* .PackUP-Title {
+    color: #362E42;
+}
+
+#TypewriterText {
+color: #02BADC;
+} */
+
+#Section1, #Section2 {
+    text-align: center;
 }
 
 #Article1 {
@@ -127,34 +106,26 @@ color: #02BADC;
 }
 
 #IPhone7Pic {
-    max-width: 100%;
+    max-width: 70%;
 }
 
-#Article1,  #Article4 {
+#Article1, #Article2, #Article4 {
     color: #011126;
     background-color: white;
     border: solid white;
     padding: 30px;
 }
 
-#Article2 {
-    color: white;
-    background-color: #3F6F8C;
-    border: solid #3F6F8C;
-    padding: 30px;
-}
-
 #Article3 {
     color: white;
-    background-color: #011126;
-    border: solid #011126;
-    padding: 30px;
+    background-color: #3F5773;
+    padding: 4em;
     }
 
 #Article5 {
     color: orange;
     background-color: transparent;
-    padding: 30px; 
+    padding: 4em; 
 }
 
 #Article6{
@@ -164,16 +135,15 @@ color: #02BADC;
     padding: 30px;
 }
 
-
 #SignUpForm {
     color: white;
-    background-color: #252F3E;
+    background-color: #3F5773;
 }
 
 #Article7 {
     display: flex;
     height: auto;
-    background-image: linear-gradient(white, #3F6F8C);
+    background-image: linear-gradient(white, #3F5773);
     padding: 35px;
 }
 
@@ -192,4 +162,9 @@ color: #02BADC;
     height: auto;
     padding: 30px;
     color: white;
+}
+
+#TRANSPARENT-Article {
+    background-color:transparent;
+    height: 45vh;
 }
