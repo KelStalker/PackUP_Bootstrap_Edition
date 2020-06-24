@@ -22,10 +22,9 @@ BBC8D7 - Light Cloudy Sky/Blue
 /* .parallax-background {
     background-size: cover;
     background-image:url("../img/903f82dd-waptaicefield-ab-taylorburk2_1000000000000000000028.jpg");
-    background-attachment: fixed; */
-
+    background-attachment: fixed;
 }
-
+ */
 .navbar {
     /* overflow: hidden; */
     background-color: #011126;
@@ -59,6 +58,18 @@ BBC8D7 - Light Cloudy Sky/Blue
     height: 80vh;
 }
 
+#SignUpBelow {
+    font-size: medium;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 24px;
+}
+
+
 #Section2{
     background-image:url("../img/Outdoorsman_Collage.jpg");
     background-attachment:fixed;
@@ -81,6 +92,7 @@ BBC8D7 - Light Cloudy Sky/Blue
     background-size: cover;
     background-attachment: fixed;
     background-repeat:no-repeat;
+    opacity: 0.8;
 }
 
 /* .PackUP-Title {
@@ -138,6 +150,11 @@ color: #02BADC;
 #SignUpForm {
     color: white;
     background-color: #3F5773;
+}
+
+#BouncingArrow {
+    width: 90px;
+    height: auto;
 }
 
 #Article7 {
