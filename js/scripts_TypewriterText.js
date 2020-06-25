@@ -9,7 +9,6 @@ var words = [
     "SUNSCREEN",
     "ICE AXE",
     "SWIM SUIT",
-
     "SKI BOOTS",
     "FIRST AID KIT",
     "PASSPORT",
