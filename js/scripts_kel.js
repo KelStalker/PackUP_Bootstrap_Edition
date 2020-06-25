@@ -18,13 +18,8 @@ var words = [
   ], part, i = 0, offset = 0, len = words.length,
   forwards = true,
   skip_count = 0,
-<<<<<<< HEAD
   skip_delay = 25,
   speed = 70;
-=======
-  skip_delay = 15,
-  speed = 270;
->>>>>>> 70e4432959f7547f26e76efa265d76f32abbfd02
 
 var TypeWriterText = function () {
   setInterval(function () {
