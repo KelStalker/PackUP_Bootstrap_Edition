@@ -1,4 +1,6 @@
 /**
+ * A template of various js created by Tech Careers instructor Warren Urich - TNX TC! 
+ * 
  * Let's try JavaScript, again!
  * Multi-line comment uses slashes and asterisks!
  * @author  TECHCareers
