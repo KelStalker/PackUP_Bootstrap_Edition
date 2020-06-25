@@ -51,6 +51,8 @@ background-color: #3F5773;
     text-align: center;
     font-size: 1;
     color: #D2D7D9;
+    /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
+    text-shadow: 4px 1px #222324, 1px 3px #222324, 2px 4px #222324;
     height: 80vh;
 }
 
