@@ -20,8 +20,8 @@ BBC8D7 - Light Cloudy Sky/Blue
 
 .navbar {
 
-    color: red;
-background-color: #3F5773;
+/* background-color: #3F5773; */
+background-color: transparent;
     /* overflow: hidden; */
     
     /* color: white; */
@@ -89,8 +89,8 @@ background-color: #3F5773;
     width:100%;
     position:relative;
 }
-
-#Section1, #Jumbotron {
+/* #Section1, */
+ #Jumbotron, .navbar {
 
     background-image:url("../img/Mountains_Day.jpg");
     background-size: cover;
