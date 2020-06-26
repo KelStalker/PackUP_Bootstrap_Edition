@@ -30,7 +30,7 @@
 <nav class="navbar">
   <a href="#PackUP">PackUP</a>
   <a href="./blog.html">Blog</a>
-  <a href="#Container1">About</a>
+  <a href="#Article1">About</a>
   <a href="#FormEmail">Register</a>
 </nav>
 
@@ -81,7 +81,7 @@
         your own personal packing lists.</p>
     </article>
 
-    <form id="FormEmail">
+    <form id="FormEmail" action="register.php" method="post">
       <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
       <h2>Enter your email to be the first to know when</h2>
       <h2> the PackUp app is live!</h2>
@@ -89,19 +89,20 @@
       <dl>
         <dd>
           <label for="FName">First Name</label>
-          <input type="text">
+          <input type="text" name="first_name" id="FName">
         </dd>
         <dd>
           <label for="LName">Last Name</label>
-          <input type="text">
+          <input type="text" name="last_name" id="LName">
         </dd>
         <dd>
           <label for="EMail">Email Address</label>
           <input type="email" name="email" id="emailField">
         </dd>
+        <dd>
+          <input type="submit" value="Submit">
+        </dd>
       </dl>
-
-
     </form>
 
 
