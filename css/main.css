@@ -15,12 +15,14 @@ BBC8D7 - Light Cloudy Sky/Blue
  */
 
 /**************************
-#3F5773 - BACKGROUND BLUE (from original WAPTA site)  ** USE THIS **
+#3F5773 >> 405773 - BACKGROUND BLUE (from original WAPTA site)  ** USE THIS **
 ***************************/
-
+* {
+    font-family: Montserrat, sans-serif;
+}
 .navbar {
 
-/* background-color: #3F5773; */
+/* background-color: #405773; */
 background-color: transparent;
     /* overflow: hidden; */
     
@@ -45,7 +47,7 @@ background-color: transparent;
   }
 
 .jumbotron {
-    background-color: transparent;
+    background-color: #969696;
     background-repeat: no-repeat;
     text-align: center;
     font-size: 0.5em;
@@ -109,7 +111,6 @@ background-color: transparent;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
-    color: white;
     background-color: #011126;
 }
 
@@ -118,7 +119,7 @@ background-color: transparent;
 }
 
 #Article1, #Article2, #Article4 {
-    color: #011126;
+    color: #254C77;
     background-color: white;
     border: solid white;
     padding: 3em;
@@ -126,7 +127,7 @@ background-color: transparent;
 
 #Article3 {
     color: white;
-    background-color: #3F5773;
+    background-color: #405773;
     padding: 4em;
     }
 
@@ -137,15 +138,18 @@ background-color: transparent;
 }
 
 #Article6{
-    color: black;
+    color: #405773;
+    /* background-color: white; */
     background-color: white;
     border: solid white;
     padding: 30px;
+    font: Montserrat Light;
 }
 
 #SignUpForm {
     color: white;
-    background-color: #3F5773;
+    background-color: #405773;
+    font-size: 1em;
 }
 
 #BouncingArrow {
@@ -156,22 +160,26 @@ background-color: transparent;
 #Article7 {
     display: flex;
     height: auto;
-    background-image: linear-gradient(white, #3F5773);
+    background-image: linear-gradient(white, #405773);
     padding: 35px;
 }
 
 .make-circular {
     border-radius: 50%;
-    width: 93px;
-    height: 93px;
+    width: 5em;
+    /* height: 6em; */
 }
 
-.comments {
+.testimonials {
     padding: 4em;
+    color: white;
+    font: Montserrat Light;
+    font-style: Italic;
+    font-size: 14px;
 }
 
 #FormEmail {
-    background-color: #3F5773;
+    background-color: #405773;
     height: auto;
     padding: 30px;
     color: white;
@@ -189,7 +197,7 @@ background-color: transparent;
         background-color: transparent;
         background-repeat: no-repeat;
         text-align: center;
-        font-size: 1em
+        font-size: 1em;
         color: #D2D7D9;
         height: 80vh;
     
