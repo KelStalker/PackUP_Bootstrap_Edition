@@ -22,22 +22,18 @@ BBC8D7 - Light Cloudy Sky/Blue
 }
 .navbar {
 
-/* background-color: #405773; */
-background-color: transparent;
-    /* overflow: hidden; */
-    
-    /* color: white; */
-    /* position: fixed; */
-    /* top: 0; */
-    /* width: 100%; */
+background-color: #405773;
+/* background-color: transparent; */
+
   }
   
   .navbar a {
-    float: left;
+    background-color: black;
+    /* float: left; */
     display: block;
     color: #D2D7D9;
     text-align: left;
-    padding: 0.5em;
+    padding: 1em;
     text-decoration: none;
     font-size: 1.1em;
   }
