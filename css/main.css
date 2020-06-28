@@ -183,29 +183,22 @@ background-color: transparent;
     height: 45vh;
 }
 
-
 /* mobile  device */
 @media screen and ( min-width: 600px ) {
     #Jumbotron {
         background-color: transparent;
         background-repeat: no-repeat;
         text-align: center;
-        font-size: 1em
+        font-size: 1em;
         color: #D2D7D9;
         height: 80vh;
-    
     }
-    #Jumbotron, .navbar {
 
+    #Jumbotron, .navbar {
         background-image:url("../img/Mountains_Day.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-repeat:no-repeat;
         opacity: 0.8;
     }
-    
-
-    
-
-
 }
