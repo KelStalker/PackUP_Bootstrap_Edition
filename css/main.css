@@ -30,7 +30,7 @@ background-color: #405773;
   .navbar a {
     background-color: black;
     /* float: left; */
-    display: block;
+    /* display: block; */
     color: #D2D7D9;
     text-align: left;
     padding: 1em;
@@ -52,6 +52,8 @@ background-color: #405773;
     /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
     /* text-shadow: 4px 2px #222324, 1px 3px #222324, 2px 4px #222324; */
     /* text-shadow: 2px 1px #222324, 1px 2px #222324, 1px 2px #222324; */
+    text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324;
+
     height: 80vh;
 }
 
@@ -88,7 +90,7 @@ background-color: #405773;
     width:100%;
     position:relative;
 }
-/* #Section1, */
+
  #Jumbotron, .navbar {
 
     background-image:url("../img/Mountain_Night.jpg");
@@ -179,7 +181,7 @@ background-color: #405773;
     background-color: #405773;
     height: auto;
     padding: 30px;
-    color: white;
+    color: whitesmoke;
 }
 
 #TRANSPARENT-Article {
@@ -206,3 +208,12 @@ background-color: #405773;
         opacity: 0.8;
     }
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+
