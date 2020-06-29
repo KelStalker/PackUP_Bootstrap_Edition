@@ -216,4 +216,26 @@ background-color: #405773;
     display: none;
 }
 
+#formtest {
+    text-align: left;
+    background-color: #405773;
+    height: auto;
+    padding: 30px;
+    color: white;
+    display: block;
+}
 
+.column {
+    width: calc(100%/3);
+    float: left;
+    padding: 10px;
+    height: 200px;
+    padding: 1em;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
