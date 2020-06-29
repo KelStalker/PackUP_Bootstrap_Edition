@@ -92,37 +92,43 @@
 
     <form id="FormEmail" action="register.php" method="post">
       <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
-      <h2>Enter your email to be the first to know when</h2>
-      <h2> the PackUp app is live!</h2>
-      
-      <dl id="definitionList">
-        <dd>
-          <label for="FName">First</label>
-          <input type="text" name="first_name" id="FName">
-        </dd>
-        <dd>
-          <label for="LName">Last</label>
-          <input type="text" name="last_name" id="LName">
-        </dd>
-        <dd>
-          <label for="EMail">Email</label>
-          <input type="email" name="email" id="emailField">
-        </dd>
-        <dd>
+      <h2>Enter your info to be the first to know <br>
+      when the PackUp app is live!</h2>
+
+      <div class="d-flex justify-content-center">
+
+          <div class="p-2 bd-highlight">
+              <!-- <label for="FName">First</label><br> -->
+              <input type="text" name="first_name" id="FName" placeholder="First Name">
+          </div>
+
+
+          <div class="p-2 bd-highlight">
+              <!-- <label for="LName">Last</label><br> -->
+              <input type="text" name="last_name" id="LName" placeholder="Last Name">
+          </div> 
+          
+          <div class="p-2 bd-highlight">
+              <!-- <label for="EMail">Email</label><br> -->
+              <input type="email" name="email" id="emailField" placeholder="Email Address">
+          </div>
+
+  </div>
+      <div class="p-2 bd-highlight">
           <input type="submit" value="Submit">
-        </dd>
-      </dl>
-    </form>
+      </div>
+
+  </form>
 
 <div id='formtest'>
 
       <div class="row">
         <div class="column">
-          <label for="fname">First name:</label><br>
+          <label for="FName">First name:</label><br>
           <!-- </span> -->
-          <span>
+          <!-- <span> -->
           <input type="text" id="fname" name="fname">
-        </span>
+        <!-- </span> -->
       </div>
         <div class="column">
           <label for="LName">Last Name</label><br>

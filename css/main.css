@@ -17,7 +17,7 @@ BBC8D7 - Light Cloudy Sky/Blue
 /**************************
 #3F5773 >> 405773 - BACKGROUND BLUE (from original WAPTA site)  ** USE THIS **
 ***************************/
-* {
+*{
     font-family: Montserrat, sans-serif;
 }
 .navbar {
@@ -71,7 +71,7 @@ background-color: #405773;
 
 .btn-primary {
     background-color: transparent;
-    border-width: 2px;
+    border-width: 3px;
     border-color: white;
     border-radius: 1em;
 }
@@ -209,6 +209,7 @@ background-color: #405773;
     }
 }
 
+/* Nav arrow that appreas when part way down the page */
 .back-to-top {
     position: fixed;
     bottom: 25px;
@@ -233,6 +234,9 @@ background-color: #405773;
     padding: 1em;
 }
 
+/* Hey Paul, we BOTH need to start documenting our CSS code - it takes much longer
+ * to figure it out if you don't - also, it will make it easier for us to combine
+ * duplicate class/id references which we have a number of...  */
 
 .row:after {
     content: "";
