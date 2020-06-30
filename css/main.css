@@ -179,45 +179,17 @@ background-color: #405773;
 
 #FormEmail {
     background-color: #405773;
-    height: auto;
+    height: 25em;
     padding: 30px;
     color: whitesmoke;
+    /* text-align: left; */
 }
 
-#TRANSPARENT-Article {
-    background-color:transparent;
-    height: 45vh;
+.left-align {
+    text-align: left;
 }
 
-/* mobile  device */
-@media screen and ( min-width: 600px ) {
-    #Jumbotron {
-        background-color: transparent;
-        background-repeat: no-repeat;
-        text-align: center;
-        font-size: 1em;
-        color: #D2D7D9;
-        height: 80vh;
-    }
-
-    #Jumbotron, .navbar {
-        background-image:url("../img/Mountains_Day.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat:no-repeat;
-        opacity: 0.8;
-    }
-}
-
-/* Nav arrow that appreas when part way down the page */
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
-}
-
-#formtest {
+/* #formtest {
     text-align: left;
     background-color: #405773;
     height: auto;
@@ -231,18 +203,73 @@ background-color: #405773;
     float: left;
     padding: 10px;
     height: 200px;
-    padding: 1em;
+    padding: 5em;
 }
-
-/* Hey Paul, we BOTH need to start documenting our CSS code - it takes much longer
- * to figure it out if you don't - also, it will make it easier for us to combine
- * duplicate class/id references which we have a number of...  */
 
 .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
+
+
+#TRANSPARENT-Article {
+    background-color:transparent;
+    height: 45vh;
+    display: none;
+}
+
+.testimonials {
+    display: none;
+}
+
+#inline-collage {
+    height: 20em;
+}
+/* mobile device
+ * 1) change background of top section
+ * 2) show transparent-article with the larger media query from the defaulted hide
+ */
+@media screen and ( min-width: 600px ) {
+    #Jumbotron {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        text-align: center;
+        font-size: 1em;
+        color: #D2D7D9;
+        height: 80vh;
+    }
+
+    /* not sure why this class was duplicated -- paul */
+    #Jumbotron, .navbar {
+        background-image:url("../img/Mountains_Day.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        opacity: 0.8;
+    }
+    #TRANSPARENT-Article {
+        background-color:transparent;
+        height: 45vh;
+        display: block;
+    }
+    .testimonials {
+        display: block;
+    }
+    #inline-collage {
+        display: none;
+    }
+
+}
+
+/* Nav arrow that appreas when part way down the page */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
 
 /* Source: https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript */
   #back2Top {
@@ -270,3 +297,4 @@ background-color: #405773;
     background-color: #DDF;
     color: #000;
 }
+
