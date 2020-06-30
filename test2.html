@@ -18,6 +18,7 @@
     <!--style(s)-->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/styles_TypewriterText.css">
+    <link rel="stylesheet" href="./css/hamburgerMenu.css">
 
 
     <!--vendor script(s)-->
@@ -37,19 +38,59 @@
 
 </head>
 
-<!-- <nav class="navbar"> -->
-    <div class="d-flex bd-highlight">
+<!-- Hamburger Menu Here -->
+<nav role='navigation'>
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      
+      <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+            <a href="PackUP" class="flex-grow-1 bd-highlight"><li>PackUP</li></a>
+            <a href="./blog.html" class="bd-highlight"><li>Info</li></a>
+            <a href="#Article1" class="bd-highlight"><li>About</li></a>
+            <a href="#FormEmail" class="bd-highlight"><li>Register</li></a>
+        
+        <!-- <a href="PackUP"><li>PackUP Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Info</li></a>
+        <a href="#"><li>Contact</li></a>
+        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="d-flex bd-highlight">
+    <a href="PackUP" class="flex-grow-1 bd-highlight">PackUP</a>
+    <a href="./blog.html" class="bd-highlight">Blog</a>
+    <a href="#Article1" class="bd-highlight">Ablout</a>
+    <a href="#FormEmail" class="bd-highlight">Register</a>
+</div>
+<!-- Nav Links (for hamburger) -->
+    <!-- <div class="d-flex bd-highlight">
         <a href="PackUP" class="flex-grow-1 bd-highlight">PackUP</a>
         <a href="./blog.html" class="bd-highlight">Blog</a>
         <a href="#Article1" class="bd-highlight">Ablout</a>
         <a href="#FormEmail" class="bd-highlight">Register</a>
-    </div>
+    </div> -->
 
-    <!-- <a href="#PackUP">PackUP</a>
-    <a href="./blog.html">Blog</a>
-    <a ">About</a>
-    <a ">Register</a> -->
-<!-- </nav> -->
+
 
 <!-- jumbotron is main banner under fixed navbar -->
 <div class="jumbotron" id="Jumbotron">
@@ -100,23 +141,19 @@
 
     <form id="FormEmail" action="register.php" method="post">
         <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
-        <h2>Enter your email to be the first to know when</h2>
-        <h2> the PackUp app is live!</h2>
+        <h2>Enter your email to be the first to know when the PackUp app is live!</h2>
+
+        <!-- <label for="FName">First</label> -->
+        <input type="text" name="first_name" id="FName" placeholder="First Name"><br>
 
 
-        <label for="FName">First</label>
-        <input type="text" name="first_name" id="FName">
+        <!-- <label for="LName">Last</label> -->
+        <input type="text" name="last_name" id="LName" placeholder="Last Name"><br>
 
-
-        <label for="LName">Last</label>
-        <input type="text" name="last_name" id="LName">
-
-        <label for="EMail">Email</label>
-        <input type="email" name="email" id="emailField">
+        <!-- <label for="EMail">Email</label> -->
+        <input type="email" name="email" id="emailField" placeholder="Email Address"><br>
 
         <input type="submit" value="Submit">
-
-
     </form>
 
 

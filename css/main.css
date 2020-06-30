@@ -26,21 +26,6 @@ background-color: #405773;
 /* background-color: transparent; */
 
   }
-  
-  .navbar a {
-    background-color: black;
-    /* float: left; */
-    /* display: block; */
-    color: #D2D7D9;
-    text-align: left;
-    padding: 1em;
-    text-decoration: none;
-    font-size: 1.1em;
-  }
-  .navbar a:hover {
-    background: #D2D7D9;
-    color: #011126;
-  }
 
 .jumbotron {
     background-color: #969696;
@@ -57,12 +42,6 @@ background-color: #405773;
     height: 80vh;
 }
 
-/* .TypewriterText {
-    margin: auto;
-    color: white;
-    font: 700 normal 2.5em 'tahoma';
-    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
-  } */
 
 #SignUpBelow {
     font-size: 2em;
@@ -91,7 +70,8 @@ background-color: #405773;
     position:relative;
 }
 
- #Jumbotron, .navbar {
+/* Fullsize formatting (mediaQ below */
+ #Jumbotron {
 
     background-image:url("../img/Mountain_Night.jpg");
     background-size: cover;
@@ -178,6 +158,7 @@ background-color: #405773;
 }
 
 #FormEmail {
+    
     background-color: #405773;
     height: 25em;
     padding: 30px;
@@ -188,29 +169,6 @@ background-color: #405773;
 .left-align {
     text-align: left;
 }
-
-/* #formtest {
-    text-align: left;
-    background-color: #405773;
-    height: auto;
-    padding: 30px;
-    color: white;
-    display: block;
-}
-
-.column {
-    width: calc(100%/3);
-    float: left;
-    padding: 10px;
-    height: 200px;
-    padding: 5em;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } */
 
 
 #TRANSPARENT-Article {
@@ -240,7 +198,6 @@ background-color: #405773;
         height: 80vh;
     }
 
-    /* not sure why this class was duplicated -- paul */
     #Jumbotron, .navbar {
         background-image:url("../img/Mountains_Day.jpg");
         background-size: cover;
@@ -248,14 +205,17 @@ background-color: #405773;
         background-repeat:no-repeat;
         opacity: 0.8;
     }
+
     #TRANSPARENT-Article {
         background-color:transparent;
         height: 45vh;
         display: block;
     }
+
     .testimonials {
         display: block;
     }
+
     #inline-collage {
         display: none;
     }

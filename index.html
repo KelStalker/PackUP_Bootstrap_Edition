@@ -35,12 +35,20 @@
 
 </head>
 
-<nav class="navbar">
+<!-- <nav class="navbar"> -->
+  <div class="d-flex bd-highlight">
+    <a href="PackUP" class="flex-grow-1 bd-highlight">PackUP</a>
+    <a href="./blog.html" class="bd-highlight">Blog</a>
+    <a href="#Article1" class="bd-highlight">Ablout</a>
+    <a href="#FormEmail" class="bd-highlight">Register</a>
+</div>
+
+<!-- <nav class="navbar">
   <a href="#PackUP">PackUP</a>
   <a href="./blog.html">Blog</a>
   <a href="#Article1">About</a>
   <a href="#FormEmail">Register</a>
-</nav>
+</nav> -->
 
   <!-- jumbotron is main banner under fixed navbar -->
   <div class="jumbotron" id="Jumbotron">
@@ -92,50 +100,33 @@
 
     <form id="FormEmail" action="register.php" method="post">
       <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
-      <h2>Enter your info to be the first to know <br>
-      when the PackUp app is live!</h2><br>
+      <h2>Enter your info to be the first to know
+      when the PackUp app is live!</h2>
 
       <div class="d-flex justify-content-center">
 
-          <div class="p-2 bd-highlight left-align">
-              <!-- <label for="FName">First Name</label><br> -->
+          <div class="p-2 bd-highlight">
+              <!-- <label for="FName">First</label><br> -->
               <input type="text" name="first_name" id="FName" placeholder="First Name">
           </div>
 
 
-          <div class="p-2 bd-highlight left-align">
-              <!-- <label for="LName">Last Name</label><br> -->
+          <div class="p-2 bd-highlight">
+              <!-- <label for="LName">Last</label><br> -->
               <input type="text" name="last_name" id="LName" placeholder="Last Name">
           </div> 
           
-          <div class="p-2 bd-highlight left-align">
-              <!-- <label for="EMail">Email*</label><br> -->
+          <div class="p-2 bd-highlight">
+              <!-- <label for="EMail">Email</label><br> -->
               <input type="email" name="email" id="emailField" placeholder="Email Address">
           </div>
-      </div>
+
+  </div>
       <div class="p-2 bd-highlight">
           <input type="submit" value="Submit">
       </div>
 
   </form>
-
-<!-- <div id='formtest'>
-
-      <div class="row">
-        <div class="column">
-          <label for="FName">First name:</label><br>
-          <input type="text" id="fname" name="fname">
-      </div>
-        <div class="column">
-          <label for="LName">Last Name</label><br>
-          <input type="text" name="last_name" id="LName">
-        </div>
-        <div class="column">
-          <label for="EMail">Email*</label><br>
-          <input type="email" name="email" id="emailField">
-        </div>
-      </div>
-  </div> -->
 
 
     <article id="TRANSPARENT-Article">
@@ -164,7 +155,6 @@
 
       </article>
 
-
       <article class="testimonials">
         <img class="make-circular" src="./img/hayleyGirlOnRocks.png" alt="Sitting Guy Looking Out" id="IPhone7Pic">
         <p>
@@ -177,12 +167,10 @@
       </article>
     </article>
 
-
-
   </section>
+
+  <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
 </body>
-
-
-
 
 </html>
