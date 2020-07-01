@@ -37,7 +37,7 @@ background-color: #405773;
     /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
     /* text-shadow: 4px 2px #222324, 1px 3px #222324, 2px 4px #222324; */
     /* text-shadow: 2px 1px #222324, 1px 2px #222324, 1px 2px #222324; */
-    text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324;
+    /* text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324; */
 
     height: 80vh;
 }
@@ -71,13 +71,15 @@ background-color: #405773;
 }
 
 /* Fullsize formatting (mediaQ below */
- #Jumbotron {
+#Jumbotron {
 
     background-image:url("../img/Mountain_Night.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat:no-repeat;
+    background-position: bottom;
     opacity: 1;
+    text-align: top;
 }
 
 #Section1, #Section2 {
@@ -158,7 +160,6 @@ background-color: #405773;
 }
 
 #FormEmail {
-    
     background-color: #405773;
     height: 25em;
     padding: 30px;
@@ -192,6 +193,7 @@ background-color: #405773;
     #Jumbotron {
         background-color: transparent;
         background-repeat: no-repeat;
+        /* background-position: center; */
         text-align: center;
         font-size: 1em;
         color: #D2D7D9;
@@ -203,6 +205,7 @@ background-color: #405773;
         background-size: cover;
         background-attachment: fixed;
         background-repeat:no-repeat;
+        background-position: center;
         opacity: 0.8;
     }
 
