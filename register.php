@@ -2,7 +2,11 @@
 /* this code templated from: https://docs.google.com/document/d/1edoTeHeF7CwlUsVriMkO9ZNAuiC4oJmQAyLvomhK-CI/edit
 Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "", "packup");
+
+// local server connect string
+// $link = mysqli_connect("localhost", "root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "packup");
+// crocweb connect string
+$link = mysqli_connect("localhost", "root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "getpacku_packup");
  
 // Check connection
 if($link === false){
