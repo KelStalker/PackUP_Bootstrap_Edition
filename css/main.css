@@ -261,3 +261,12 @@ background-color: #405773;
     color: #000;
 }
 
+.websiteUnderConstruction {
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #407758;
+    height: 80vh;
+    padding: 3em 0;
+}
