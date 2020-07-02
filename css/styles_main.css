@@ -184,6 +184,8 @@ background-color: #405773;
 
 #inline-collage {
     width: 100vw;
+    max-width: 100%;
+
 }
 /* mobile device
  * 1) change background of top section
