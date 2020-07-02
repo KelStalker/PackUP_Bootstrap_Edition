@@ -75,7 +75,7 @@ background-color: #405773;
 
     background-image:url("../img/Mountain_Night.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat:no-repeat;
     background-position: bottom;
     opacity: 1;
@@ -183,7 +183,7 @@ background-color: #405773;
 }
 
 #inline-collage {
-    height: 20em;
+    width: 100vw;
 }
 /* mobile device
  * 1) change background of top section
@@ -261,7 +261,28 @@ background-color: #405773;
     color: #000;
 }
 
+<<<<<<< HEAD
 .jumbotron.F2 {
     font-size: 5em;
     color: red;
+=======
+.websiteUnderConstruction {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #405773;
+    height: 80vh;
+    padding: 3em 0;
+}
+
+.websiteUnderConstruction {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #405773;
+    height: 70vh;
+    padding: 3em 4em;
+>>>>>>> f83f03ea057a198923d3d7ab6b70f7129f8a3109
 }
