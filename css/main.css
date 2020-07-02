@@ -183,7 +183,7 @@ background-color: #405773;
 }
 
 #inline-collage {
-    height: 20em;
+    width: 100vw;
 }
 /* mobile device
  * 1) change background of top section
@@ -262,11 +262,11 @@ background-color: #405773;
 }
 
 .websiteUnderConstruction {
-    color: red;
+    color: white;
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
-    background-color: #407758;
+    background-color: #405773;
     height: 80vh;
     padding: 3em 0;
 }
