@@ -75,7 +75,7 @@ background-color: #405773;
 
     background-image:url("../img/Mountain_Night.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat:no-repeat;
     background-position: bottom;
     opacity: 1;
@@ -269,4 +269,14 @@ background-color: #405773;
     background-color: #405773;
     height: 80vh;
     padding: 3em 0;
+}
+
+.websiteUnderConstruction {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #405773;
+    height: 70vh;
+    padding: 3em 4em;
 }
