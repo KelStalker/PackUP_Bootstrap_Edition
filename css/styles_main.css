@@ -263,11 +263,6 @@ background-color: #405773;
     color: #000;
 }
 
-<<<<<<< HEAD
-.jumbotron.F2 {
-    font-size: 5em;
-    color: red;
-=======
 .websiteUnderConstruction {
     color: white;
     font-size: 2rem;
@@ -286,5 +281,4 @@ background-color: #405773;
     background-color: #405773;
     height: 70vh;
     padding: 3em 4em;
->>>>>>> f83f03ea057a198923d3d7ab6b70f7129f8a3109
 }
