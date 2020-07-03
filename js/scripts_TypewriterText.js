@@ -4,7 +4,6 @@
 // Easily add any word or word phrase to display in the following array:
 var words = [
     "TENT POLES",
-    "BUBBLE GUM",
     "HARNESS",
     "SUNSCREEN",
     "ICE AXE",
