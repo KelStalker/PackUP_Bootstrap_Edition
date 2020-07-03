@@ -31,10 +31,11 @@ background-color: #405773;
     background-color: #969696;
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
 
     color: white;
-    height: 80vh;
+    /* height: 80vh; */
+    min-height: 25em;
     /* color: #D2D7D9; */
     /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
     /* text-shadow: 4px 2px #222324, 1px 3px #222324, 2px 4px #222324; */
@@ -44,7 +45,7 @@ background-color: #405773;
 
 #logoPackup {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     /* padding-top: 0; */
 }
 #logoPack {
@@ -222,7 +223,9 @@ background-color: #405773;
         font-size: 1em;
         color: white;
         /* color: #D2D7D9; */
-        height: 80vh;
+        min-height: 400px;
+                /* height: 80vh; */
+
     }
 
     #Jumbotron, .navbar {
@@ -326,4 +329,5 @@ background-color: #405773;
     background-color: #405773;
     height: 70vh;
     padding: 3em 4em;
+    display: none;
 }
