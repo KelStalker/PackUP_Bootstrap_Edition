@@ -31,20 +31,34 @@ background-color: #405773;
     background-color: #969696;
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 0.5em;
+    font-size: 1em;
 
-    color: #D2D7D9;
+    color: white;
+    height: 80vh;
+    /* color: #D2D7D9; */
     /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
     /* text-shadow: 4px 2px #222324, 1px 3px #222324, 2px 4px #222324; */
     /* text-shadow: 2px 1px #222324, 1px 2px #222324, 1px 2px #222324; */
     /* text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324; */
+}
 
-    height: 80vh;
+#logoPackup {
+    text-align: center;
+    font-size: 1.5em;
+    /* padding-top: 0; */
+}
+#logoPack {
+    color: white;
+    /* padding-right: 0; */
+}
+#logoUp {
+    color: rgb(52, 67, 86);
+    /* padding-left: 0; */
 }
 
 
 #SignUpBelow {
-    font-size: 2em;
+    font-size: 1em;
     padding: 2em;
 }
 
@@ -52,11 +66,12 @@ background-color: #405773;
     background-color: transparent;
     border-width: 3px;
     border-color: white;
-    border-radius: 1em;
+    border-radius: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
 }
 
 #Section2{
-    background-image:url("../img/Outdoorsman_Collage.jpg");
     background-attachment:fixed;
     display:block;
     background-repeat:no-repeat;
@@ -139,10 +154,7 @@ background-color: #405773;
 }
 
 #Article7 {
-    display: flex;
-    height: auto;
-    background-image: linear-gradient(white, #405773);
-    padding: 35px;
+    display: none;
 }
 
 .make-circular {
@@ -152,18 +164,20 @@ background-color: #405773;
 }
 
 .testimonials {
-    padding: 4em;
+    display: none;
+    /* padding: 4em;
     color: white;
     font: Montserrat Light;
     font-style: Italic;
-    font-size: 14px;
+    font-size: 14px; */
 }
 
 #FormEmail {
     background-color: #405773;
     height: 25em;
     padding: 30px;
-    color: whitesmoke;
+    color: white;
+    /* color: whitesmoke;// kel to review and delete */
     /* text-align: left; */
 }
 
@@ -178,15 +192,23 @@ background-color: #405773;
     display: none;
 }
 
-.testimonials {
-    display: none;
-}
 
 #inline-collage {
-    width: 100vw;
+    /* width: 100vw; paul to review and delete */
     max-width: 100%;
 
 }
+#Article8 {
+    background-color: #405773;
+    color: white;
+    font-size: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+#Article8 div {
+    padding: 5em;
+}
+
 /* mobile device
  * 1) change background of top section
  * 2) show transparent-article with the larger media query from the defaulted hide
@@ -198,7 +220,8 @@ background-color: #405773;
         /* background-position: center; */
         text-align: center;
         font-size: 1em;
-        color: #D2D7D9;
+        color: white;
+        /* color: #D2D7D9; */
         height: 80vh;
     }
 
@@ -210,20 +233,42 @@ background-color: #405773;
         background-position: center;
         opacity: 0.8;
     }
-
+    #logoPackup {
+        text-align: left;
+    }
     #TRANSPARENT-Article {
         background-color:transparent;
         height: 45vh;
         display: block;
     }
-
+    #Article7 {
+        display: flex;
+        height: auto;
+        background-image: linear-gradient(white, #405773);
+        padding: 35px;
+    }
+    
     .testimonials {
         display: block;
+        padding: 4em;
+        color: white;
+        font: Montserrat Light;
+        font-style: Italic;
+        font-size: 14px;
     }
 
+
+    #Section2{
+        background-image:url("../img/Outdoorsman_Collage.jpg");
+    }
+    
     #inline-collage {
         display: none;
     }
+    #Article8 {
+        flex-direction: row-reverse;
+    }
+    
 
 }
 
