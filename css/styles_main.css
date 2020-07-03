@@ -178,7 +178,8 @@ background-color: #405773;
     height: 25em;
     padding: 30px;
     color: white;
-    /* color: whitesmoke;// kel to review and delete */
+    color: whitesmoke; 
+    
     /* text-align: left; */
 }
 
@@ -186,13 +187,11 @@ background-color: #405773;
     text-align: left;
 }
 
-
 #TRANSPARENT-Article {
     background-color:transparent;
     height: 45vh;
     display: none;
 }
-
 
 #inline-collage {
     /* width: 100vw; paul to review and delete */
@@ -208,107 +207,6 @@ background-color: #405773;
 }
 #Article8 div {
     padding: 5em;
-}
-
-/* mobile device
- * 1) change background of top section
- * 2) show transparent-article with the larger media query from the defaulted hide
- */
-@media screen and ( min-width: 600px ) {
-    #Jumbotron {
-        background-color: transparent;
-        background-repeat: no-repeat;
-        /* background-position: center; */
-        text-align: center;
-        font-size: 1em;
-        color: white;
-        /* color: #D2D7D9; */
-        min-height: 400px;
-                /* height: 80vh; */
-
-    }
-
-    #Jumbotron, .navbar {
-        background-image:url("../img/Mountains_Day.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat:no-repeat;
-        background-position: center;
-        opacity: 0.8;
-    }
-    #logoPackup {
-        text-align: left;
-    }
-    #TRANSPARENT-Article {
-        background-color:transparent;
-        height: 45vh;
-        display: block;
-    }
-    #Article7 {
-        display: flex;
-        height: auto;
-        background-image: linear-gradient(white, #405773);
-        padding: 35px;
-    }
-    
-    .testimonials {
-        display: block;
-        padding: 4em;
-        color: white;
-        font: Montserrat Light;
-        font-style: Italic;
-        font-size: 14px;
-    }
-
-
-    #Section2{
-        background-image:url("../img/Outdoorsman_Collage.jpg");
-    }
-    
-    #inline-collage {
-        display: none;
-    }
-    #Article8 {
-        flex-direction: row-reverse;
-    }
-    
-
-}
-
-/* Nav arrow that appreas when part way down the page */
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
-}
-
-
-/* Source: https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript */
-  #back2Top {
-    width: 40px;
-    line-height: 40px;
-    overflow: hidden;
-    z-index: 999;
-    display: none;
-    cursor: pointer;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    position: fixed;
-    bottom: 50px;
-    right: 0;
-    background-color: #DDD;
-    color: #555;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-}
-#back2Top:hover {
-    background-color: #DDF;
-    color: #000;
 }
 
 .websiteUnderConstruction {

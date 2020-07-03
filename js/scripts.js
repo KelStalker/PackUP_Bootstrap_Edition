@@ -19,7 +19,7 @@ $(document).ready(function () {
   });
 });
 
-// Source: https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
+// Source:https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/
 
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {

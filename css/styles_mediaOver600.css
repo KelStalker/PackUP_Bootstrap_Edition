@@ -1,0 +1,60 @@
+/* mobile device
+ * 1) change background of top section
+ * 2) show transparent-article with the larger media query from the defaulted hide
+ */
+ @media screen and ( min-width: 600px ) {
+    #Jumbotron {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        text-align: center;
+        font-size: 1em;
+        color: white;
+        /* color: #D2D7D9; */
+        min-height: 400px;
+                /* height: 80vh; */
+    }
+
+    #Jumbotron, .navbar {
+        background-image:url("../img/Mountains_Day.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-position: center;
+        opacity: 0.8;
+    }
+    #logoPackup {
+        text-align: left;
+    }
+    #TRANSPARENT-Article {
+        background-color:transparent;
+        height: 45vh;
+        display: block;
+    }
+    #Article7 {
+        display: flex;
+        height: auto;
+        background-image: linear-gradient(white, #405773);
+        padding: 35px;
+    }
+    
+    .testimonials {
+        display: block;
+        padding: 4em;
+        color: white;
+        font: Montserrat Light;
+        font-style: Italic;
+        font-size: 14px;
+    }
+
+    #Section2{
+        background-image:url("../img/Outdoorsman_Collage.jpg");
+    }
+    
+    #inline-collage {
+        display: none;
+    }
+    #Article8 {
+        flex-direction: row-reverse;
+    }
+}
