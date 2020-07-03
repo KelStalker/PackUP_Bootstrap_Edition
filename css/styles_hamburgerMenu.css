@@ -104,19 +104,15 @@
    background: #232323;
  }
  
- /*
-  * But let's hide the middle one.
-  */
+ /* Hide middle line */
  #menuToggle input:checked ~ span:nth-last-child(3)
  {
    opacity: 0;
    transform: rotate(0deg) scale(0.2, 0.2);
  }
  
- /*
-  * Ohyeah and the last one should go the other direction
-  */
- #menuToggle input:checked ~ span:nth-last-child(2)
+ /* last line goes the other direction*/
+   #menuToggle input:checked ~ span:nth-last-child(2)
  {
    opacity: 1;
    transform: rotate(-45deg) translate(0, -1px);
@@ -129,7 +125,8 @@
  #menu
  {
    position: absolute;
-   width: 300px;
+   width: 250px;
+   /* width: 60%; */
    margin: -100px 0 0 0;
    padding: 50px;
    padding-top: 125px;
@@ -148,8 +145,8 @@
  
  #menu li
  {
-   padding: 10px 0;
-   font-size: 22px;
+   padding: 5px 0;
+   font-size: 18px;
  }
  
  /*
