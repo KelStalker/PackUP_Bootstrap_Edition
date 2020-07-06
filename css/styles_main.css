@@ -75,20 +75,6 @@ background-color: #405773;
     padding-left: 3em;
 }
 
-#Section2{
-    background-attachment:fixed;
-    display:block;
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size:cover;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:0px;
-    border-radius:0px;
-    width:100%;
-    position:relative;
-}
-
 /* Fullsize formatting (mediaQ below */
 #Jumbotron {
 
@@ -103,6 +89,10 @@ background-color: #405773;
 
 #Section1, #Section2 {
     text-align: center;
+}
+
+.articleHeading {
+    color: red;
 }
 
 #Article1 {
@@ -130,6 +120,20 @@ background-color: #405773;
     background-color: #405773;
     padding: 4em;
     }
+
+#Section2{
+    background-attachment:fixed;
+    display:block;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    border-radius:0px;
+    width:100%;
+    position:relative;
+}
 
 #Article5 {
     color: orange;
