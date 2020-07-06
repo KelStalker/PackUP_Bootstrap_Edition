@@ -31,11 +31,14 @@ background-color: #405773;
     background-color: #969696;
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 86px;
+    /* font-size: 1.2em; */
 
     color: white;
     /* height: 80vh; */
     min-height: 25em;
+    padding-top: 2em;
+
     /* color: #D2D7D9; */
     /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
     /* text-shadow: 4px 2px #222324, 1px 3px #222324, 2px 4px #222324; */
@@ -44,9 +47,9 @@ background-color: #405773;
 }
 
 #logoPackup {
-    text-align: center;
+    text-align: top;
     font-size: 1em;
-    /* padding-top: 0; */
+    padding-bottom: 6em;
 }
 #logoPack {
     color: white;
@@ -65,7 +68,7 @@ background-color: #405773;
 
 .btn-primary {
     background-color: transparent;
-    border-width: 3px;
+    border-width: 2px;
     border-color: white;
     border-radius: 2em;
     padding-right: 3em;
@@ -201,12 +204,13 @@ background-color: #405773;
 #Article8 {
     background-color: #405773;
     color: white;
-    font-size: 0.5em;
+    font-size: 0.8em;
     display: flex;
     flex-direction: column;
-}
-#Article8 div {
-    padding: 5em;
+    padding-top: 3em;
+    padding-bottom:3em;
+    height: 8em;
+
 }
 
 .websiteUnderConstruction {

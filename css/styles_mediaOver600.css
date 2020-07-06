@@ -56,5 +56,12 @@
     }
     #Article8 {
         flex-direction: row-reverse;
+        padding-left: 2em;
+        padding-right: 2em;
+        justify-content: center;
+    }
+    #Article8 p {
+        margin:2px;
+        overflow: hidden;
     }
 }
