@@ -31,7 +31,7 @@ background-color: #405773;
     background-color: #969696;
     background-repeat: no-repeat;
     text-align: center;
-    font-size: 86px;
+    font-size: 36px;
     /* font-size: 1.2em; */
 
     color: white;
@@ -209,7 +209,7 @@ background-color: #405773;
     flex-direction: column;
     padding-top: 3em;
     padding-bottom:3em;
-    height: 8em;
+    height: 20em;
 
 }
 
