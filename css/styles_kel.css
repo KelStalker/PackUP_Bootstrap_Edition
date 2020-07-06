@@ -1,5 +1,6 @@
 *{
     font-family: Montserrat, sans-serif;
+    
 }
 .navbar {
 
@@ -7,27 +8,21 @@ background-color: #405773;
 /* background-color: transparent; */
   }
 
+
+
 .jumbotron {
     background-color: #969696;
     background-repeat: no-repeat;
     text-align: center;
     font-size: 36px;
     /* font-size: 1.2em; */
+
     color: white;
     /* height: 80vh; */
     min-height: 25em;
     padding-top: 2em;
-}
 
-/* Fullsize formatting (mediaQ below */
-#Jumbotron {
-    background-image:url("../img/Mountain_Night.jpg");
-    background-size: cover;
-    /* background-attachment: fixed; */
-    background-repeat:no-repeat;
-    background-position: bottom;
-    opacity: 1;
-    text-align: top;
+    /* color: #D2D7D9; */
 }
 
 #logoPackup {
@@ -60,6 +55,19 @@ background-color: #405773;
     padding-left: 3em;
 }
 
+/* Fullsize formatting (mediaQ below */
+#Jumbotron {
+
+    background-image:url("../img/Mountain_Night.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat:no-repeat;
+    background-position: bottom;
+    opacity: 1;
+    text-align: top;
+
+}
+
 #Section1, #Section2 {
     text-align: center;
 }
@@ -67,7 +75,7 @@ background-color: #405773;
 .jumbotronHeadings {   
     color: white;
     font-size: 1.75rem;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
 }
 
 .articleHeadings {

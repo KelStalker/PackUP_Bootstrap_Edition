@@ -10,16 +10,22 @@
 
     <title>Lets get PackIN!!, 1st Ed</title>
 
+    <!--font(s)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+
     <!--  small change to check repo statsu with new folder name -->
     <!--vendor style(s)-->
     <link rel="stylesheet" href="./vendor/bootstrap-4.5.0-dist/css/bootstrap.css">
 
     <!--style(s)-->
-    <link rel="stylesheet" href="./css/styles_main.css">
     <link rel="stylesheet" href="./css/styles_TypewriterText.css">
-    <link rel="stylesheet" href="./css/styles_mediaOver600.css">
     <link rel="stylesheet" href="./css/styles_hamburgerMenu.css">
-
+    <link rel="stylesheet" href="./css/styles_kel.css">
+    <!-- <link rel="stylesheet" href="./css/styles_main.css"> -->
+    <link rel="stylesheet" href="./css/styles_mediaOver600.css">
 
     <!--vendor script(s)-->
     <script src="https://kit.fontawesome.com/673fcdb345.js" crossorigin="anonymous"></script>
@@ -29,11 +35,6 @@
     <!--script(s)-->
     <script type="text/javascript" src="./js/scripts_TypewriterText.js"></script>
     <script type="text/javascript" src="./js//scripts.js"></script>
-
-    <!--font(s)-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
 
 </head>
@@ -48,6 +49,7 @@
             Thank you for visiting. Please come back soon!
         </p>
     </section>
+
     <!-- Hamburger Menu -->
     <nav role='navigation'>
         <div id="menuToggle">
@@ -84,35 +86,36 @@
             <span id="logoPack">PACK</span>
             <span id="logoUp">UP</span>
         </p>
-        <h2>NEVER FORGET YOUR</h2>
+        <div class="jumbotronHeadings">NEVER FORGET YOUR</div>
 
 
         <h2 class="TypeWriterTextContainer">
             <div class="TypewriterText" id="TypewriterText">
             </div>
         </h2>
-        <h2>AGAIN</h2>
+        <div class="jumbotronHeadings">AGAIN</div>
         <p id="SignUpBelow">Sign up below to become an early adopter</p>
         <a class="btn btn-primary btn-" href="#FormEmail" role="button">sign me up</a>
 
     </div>
 
+
     <section id="Section1">
 
         <article id="Article1">
-            <h2 class="articleHeadings">Spend more time outside doing what you love.</h2>
+            <div class="articleHeadings">Spend more time outside doing what you love.</div>
             <img src="./img/IPhone7pic.jpg" alt="IPhone 7 Pic" id="IPhone7Pic">
         </article>
 
         <article id=Article2>
-            <h2 class="articleHeadings">PACK WITH CONFIDENCE USING OUR TRIP GENERATOR</h2>
+            <div class="articleHeadings">PACK WITH CONFIDENCE USING OUR TRIP GENERATOR</div>
             <p>Take the guesswork out of packing by following and customizing comprehensive packing lists that are
                 tailored to your excursion type, making sure you have everything necessary for what you’re doing and
                 where you're staying.</p>
         </article>
 
         <article id=Article3>
-            <h2 class="articleHeadings">CREATE AND SHARE COLLABORATIVE PACKING LISTS</h2>
+            <div class="articleHeadings">CREATE AND SHARE COLLABORATIVE PACKING LISTS</div>
             <p>Create collaborative packing lists that will help your group ensure everyone has their share of essential
                 items, and that nothing gets left behind. (or double packed).</p>
         </article>
@@ -123,7 +126,7 @@
     <section id="Section2">
 
         <article id="Article4">
-            <h2 class="articleHeadings">LEARN FROM OTHERS AND VIEW THE TRIPS THEY PACKED FOR</h2>
+            <div class="articleHeadings">LEARN FROM OTHERS AND VIEW THE TRIPS THEY PACKED FOR</div>
             <p>See what other professionals and enthusiasts are packing for their excursions, improving and refining
                 your own personal packing lists.</p>
         </article>
@@ -131,6 +134,7 @@
         <form id="FormEmail" action="register.php" method="post">
             <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
             <h3>Enter your email to be the first to know when the PackUp app is live!</h3>
+        
 
             <input type="text" name="first_name" id="FName" placeholder="First Name"><br>
             <input type="text" name="last_name" id="LName" placeholder="Last Name"><br>
@@ -145,7 +149,7 @@
         </article>
         <img id='inline-collage' src='./img/Outdoorsman_Collage.jpg'>
         <article id="Article6">
-            <h2 class="articleHeadings">What is PackUp?</h2>
+            <p class="articleHeadings">What is PackUp?</p>
             <p>During a complex multi-day ski traverse on the Wapta Ice Field the idea for our app originally sparked.
                 We
                 wanted to build an app that could help others refine their flow when it comes to packing and
