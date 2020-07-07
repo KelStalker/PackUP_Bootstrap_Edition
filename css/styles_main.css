@@ -166,8 +166,14 @@ h6, .h6 {font-size: 1rem;}
 .formFields{
     padding: 20px;
 }
+
+#FName, #LName, #emailField, #submitButton {
+    border-radius: 2% / 20%;
+}
+
 #submitButton{
-    /* background-color:darkred; */
+    background-color: transparent;
+    color: white;
     width: 200px;
 }
 
