@@ -34,14 +34,19 @@
     .formHeadings {
         font-size: 1.75rem;
     }
-    
     #formEmail {
         text-align: center;
-        overflow: hidden;
+        /* overflow: hidden; */
         background-color: #405773;
         padding: 30px;
         color: white;
     }
+    .formFields {
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+    }
+
 
     #TRANSPARENT-Article {
         background-color:transparent;

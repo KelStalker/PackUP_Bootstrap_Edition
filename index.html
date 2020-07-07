@@ -132,7 +132,7 @@
                 your own personal packing lists.</p>
         </article>
 
-        <form id="formEmail" action="register.php" method="post">
+        <div id="formEmail" action="register.php" method="post">
             <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
             <div class="formHeadings">Enter your email to be the first to know when the PackUp app is live!</div>
         
@@ -142,8 +142,8 @@
             <input type="email" name="email" id="emailField" placeholder="Email Address" required=""
                 pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$"><br>
             </div>
-            <input type="submit" value="Submit">
-        </form>
+            <input type="submit" id="submitButton" value="Submit">
+        </div>
 
 
         <article id="TRANSPARENT-Article">

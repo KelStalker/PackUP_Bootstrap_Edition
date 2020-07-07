@@ -150,6 +150,27 @@ h6, .h6 {font-size: 1rem;}
     height: auto;
 }
 
+.formHeadings {
+    font-size: 1.5rem;
+}
+#formEmail {
+    text-align: center;
+    overflow: hidden;
+    background-color: #405773;
+    padding: 30px;
+    color: white;
+}
+::placeholder{
+    text-align: left;
+}
+.formFields{
+    padding: 20px;
+}
+#submitButton{
+    /* background-color:darkred; */
+    width: 200px;
+}
+
 #Article7 {
     display: none;
 }
@@ -168,20 +189,6 @@ h6, .h6 {font-size: 1rem;}
     font-style: Italic;
     font-size: 14px; */
 }
-
-
-.formHeadings {
-    font-size: 1.5rem;
-}
-
-#formEmail {
-    text-align: center;
-    overflow: hidden;
-    background-color: #405773;
-    padding: 30px;
-    color: white;
-}
-
 
 
 #TRANSPARENT-Article {
