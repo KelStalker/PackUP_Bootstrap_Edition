@@ -1,11 +1,7 @@
 *{
     font-family: Montserrat, sans-serif;
+    text-align: center;
 }
-.navbar {
-
-background-color: #405773;
-/* background-color: transparent; */
-  }
 
 .jumbotron {
     background-color: #969696;
@@ -60,9 +56,6 @@ background-color: #405773;
     padding-left: 3em;
 }
 
-#Section1, #Section2 {
-    text-align: center;
-}
 
 .jumbotronHeadings {   
     color: white;
@@ -71,10 +64,10 @@ background-color: #405773;
 }
 
 .articleHeadings {
-    
     /* color: darkorange; */
     font-size: 1.75rem;
 }
+
 
 /* BOOTSTRAP H0TAG FORMATTING */
 /* h1, h2, h3, h4, h5, h6,
@@ -176,19 +169,21 @@ h6, .h6 {font-size: 1rem;}
     font-size: 14px; */
 }
 
-#FormEmail {
-    background-color: #405773;
-    height: 25em;
-    padding: 30px;
-    color: white;
-    color: whitesmoke; 
-    
-    /* text-align: left; */
+
+.formHeadings {
+    font-size: 1.5rem;
 }
 
-.left-align {
-    text-align: left;
+#formEmail {
+    text-align: center;
+    overflow: hidden;
+    background-color: #405773;
+    /* height: 25em; */
+    padding: 30px;
+    color: white;
 }
+
+
 
 #TRANSPARENT-Article {
     background-color:transparent;

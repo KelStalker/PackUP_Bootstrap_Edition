@@ -50,6 +50,7 @@
         </p>
     </section>
 
+
     <!-- Hamburger Menu -->
     <nav role='navigation'>
         <div id="menuToggle">
@@ -88,14 +89,14 @@
         </p>
         <div class="jumbotronHeadings">NEVER FORGET YOUR</div>
 
-
         <h2 class="TypeWriterTextContainer">
             <div class="TypewriterText" id="TypewriterText">
             </div>
         </h2>
+
         <div class="jumbotronHeadings">AGAIN</div>
         <p id="SignUpBelow">Sign up below to become an early adopter</p>
-        <a class="btn btn-primary btn-" href="#FormEmail" role="button">sign me up</a>
+        <a class="btn btn-primary btn-" href="#formEmail" role="button">sign me up</a>
 
     </div>
 
@@ -131,15 +132,16 @@
                 your own personal packing lists.</p>
         </article>
 
-        <form id="FormEmail" action="register.php" method="post">
+        <form id="formEmail" action="register.php" method="post">
             <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
-            <h3>Enter your email to be the first to know when the PackUp app is live!</h3>
+            <div class="formHeadings">Enter your email to be the first to know when the PackUp app is live!</div>
         
-
+            <div class="formFields">
             <input type="text" name="first_name" id="FName" placeholder="First Name"><br>
             <input type="text" name="last_name" id="LName" placeholder="Last Name"><br>
             <input type="email" name="email" id="emailField" placeholder="Email Address" required=""
                 pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$"><br>
+            </div>
             <input type="submit" value="Submit">
         </form>
 
@@ -147,7 +149,11 @@
         <article id="TRANSPARENT-Article">
             <!--  Transparent, empty container -->
         </article>
+
+
         <img id='inline-collage' src='./img/Outdoorsman_Collage.jpg'>
+
+
         <article id="Article6">
             <p class="articleHeadings">What is PackUp?</p>
             <p>During a complex multi-day ski traverse on the Wapta Ice Field the idea for our app originally sparked.
@@ -179,9 +185,7 @@
                 <img class="make-circular" src="./img/hayleyGirlOnRocks.png" alt="Sitting Guy Looking Out"
                     id="IPhone7Pic">
                 <p>
-                    "I'm looking forward to creating collaborative lists with my friends. Tracking who is bringing what
-                    has
-                    always been an issue."
+                    "I'm looking forward to creating collaborative lists with my friends. Tracking who is bringing what has always been an issue."
                 </p>
                 <p>
                     Hayley, Ontario
