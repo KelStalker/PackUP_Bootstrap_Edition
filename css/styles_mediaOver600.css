@@ -26,14 +26,31 @@
         font-size: 2rem;
     /* font-family: 'Roboto'; */
     }
+
     #logoPackgitup {
         text-align: left;
     }
+
+    .formHeadings {
+        font-size: 1.75rem;
+    }
+    
+    #formEmail {
+        text-align: center;
+        overflow: hidden;
+        background-color: #405773;
+        padding: 30px;
+        color: white;
+    }
+
     #TRANSPARENT-Article {
         background-color:transparent;
         height: 45vh;
         display: block;
     }
+
+
+
     #Article7 {
         display: flex;
         height: auto;
@@ -47,7 +64,7 @@
         color: white;
         font: Montserrat Light;
         font-style: Italic;
-        font-size: 14px;
+        font-size: 14px;    
     }
 
     
