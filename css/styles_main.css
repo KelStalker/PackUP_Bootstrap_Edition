@@ -27,6 +27,18 @@
     text-align: top;
 }
 
+.TypewriterText {
+    margin: auto;
+    /* color: #D2D7D9; */
+    color: white;
+    font: 700 normal 1em 'tahoma';
+    /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
+    /* text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324; */
+
+    height: 1em;
+    font-family: 'Krona One', sans-serif;
+  }
+
 #logoPackup {
     text-align: center;
     font-size: .5em;

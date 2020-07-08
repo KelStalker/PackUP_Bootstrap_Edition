@@ -20,12 +20,18 @@
         min-height: 671px;
         padding-bottom: 2em;
     }
-
     .jumbotronHeadings {   
         color: white;
-        font-size: 2rem;
-    /* font-family: 'Roboto'; */
+        font-size: 3rem;
+        font: 'Krono One';
     }
+    .TypewriterText {
+        margin: auto;
+        color: white;
+        font: 700 normal 1.5em 'tahoma';
+        height: 1em;
+        font-family: 'Krona One', sans-serif;
+      }
 
     #logoPackup {
         text-align: left;
