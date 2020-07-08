@@ -1,0 +1,20 @@
+.websiteUnderConstruction {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #405773;
+    height: 80vh;
+    padding: 3em 0;
+}
+
+.websiteUnderConstruction {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #405773;
+    height: 70vh;
+    padding: 3em 4em;
+    display: block;
+}
