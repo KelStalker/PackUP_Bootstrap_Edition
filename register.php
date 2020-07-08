@@ -1,12 +1,13 @@
 <?php
-/* this code templated from: https://docs.google.com/document/d/1edoTeHeF7CwlUsVriMkO9ZNAuiC4oJmQAyLvomhK-CI/edit
+/* this code templated from: https://www.tutorialrepublic.com/php-tutorial/php-mysql-insert-query.php
 Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 
 // local server connect string
-// $link = mysqli_connect("localhost", "root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "packup");
+// $link = mysqli_connect("localhost", "root", "", "packup");
+$link = mysqli_connect("localhost", "root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "packup");
 // crocweb connect string
-$link = mysqli_connect("localhost", "getpacku_root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "getpacku_packup");
+// $link = mysqli_connect("localhost", "getpacku_root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "getpacku_packup");
  
 // Check connection
 if($link === false){
@@ -18,4 +19,14 @@ $first_name = mysqli_real_escape_string($link, $_REQUEST['first_name']);
 $last_name = mysqli_real_escape_string($link, $_REQUEST['last_name']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
  
+ // Attempt insert query execution
+$sql = "INSERT INTO register (fname, lname, email) VALUES ('$first_name', '$last_name', '$email')";
+if(mysqli_query($link, $sql)){
+    echo "Records added successfully.";
+} else{
+    echo "ERROR2: Could not able to execute $sql. " . mysqli_error($link);
+}
  
+// Close connection
+mysqli_close($link);
+?>

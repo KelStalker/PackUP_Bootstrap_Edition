@@ -132,7 +132,7 @@
                 your own personal packing lists.</p>
         </article>
 
-        <div id="formEmail" action="register.php" method="post">
+        <!-- <div id="formEmail" action="register.php" method="post">
             <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
             <div class="formHeadings">Enter your email to be the first to know when the PackUp app is live!</div>
         
@@ -143,8 +143,20 @@
                 pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$"><br>
             </div>
             <input type="submit" id="submitButton" value="SUBMIT">
-        </div>
+        </div> -->
 
+
+        <form id="formEmail" action="register.php" method="post">
+            <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
+            <div class="formHeadings">Enter your email to be the first to know when the PackUp app is live!</div>
+            <div class="formFields">
+                <input type="text" name="first_name" id="FName" placeholder="First Name" required><br>
+                <input type="text" name="last_name" id="LName" placeholder="Last Name" required><br>
+                <input type="email" name="email" id="emailField" placeholder="Email Address" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$" required><br>
+            </div>
+            <input type="submit" id="submitButton" value="SUBMIT">
+        </form>
+    
 
         <article id="TRANSPARENT-Article">
             <!--  Transparent, empty container -->
@@ -192,13 +204,15 @@
                 </p>
             </article>
         </article>
-        <article id="Article8">
-            <p>PackUp 2020. All Rights Reserved. </p>
-            <p></p>
-            <p>Available soon on the App Store and Google Play.</p>
-        </article>
-
     </section>
+
+    <footer id="footerId">
+        <p>PackUp 2020. All Rights Reserved. </p>
+        <p></p>
+        <p>Available soon on the App Store and Google Play.</p>
+    </footer>
+
+
 
     <!-- Arrow in bottom right when page is scrolled -->
     <!-- Not wanted so commented out, but code remains 
