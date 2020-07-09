@@ -18,7 +18,7 @@ var words = [
   ], part, i = 0, offset = 0, len = words.length,
   forwards = true,
   skip_count = 0,
-  skip_delay = 125,
+  skip_delay = 25,
   speed = 70;
 
 var TypeWriterText = function () {
