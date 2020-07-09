@@ -1,21 +1,32 @@
+/* Color Theme 2  (Extracted from Mountains Pic)
+#011126 - Darkets (almost black)
+#023859 - Darkest Blue
+#3F6F8C - Medium Blue
+#688EA6 - Light Blue
+#D2D7D9 - Off White
+ */
+
+/**************************
+#3F5773 >> 405773 - BACKGROUND BLUE (from original WAPTA site)  ** USE THIS **
+***************************/
+
+
 *{
     font-family: Montserrat, sans-serif;
     text-align: center;
 }
 
 .jumbotron {
-    min-height: 475px;
     height: 90vh;
+    min-height: 475px;
     background-image:url("../img/Mountain_Night_cropped2.jpg");
     background-size: cover;
     background-position: center;
     opacity: 1;
-    /* background-color: darkred; */
     background-repeat: no-repeat;
     text-align: center;
     font-size: 36px;
     color: white;
-    /* min-height: 25em; */
     padding-top: 2em;
     text-align: top;
 }
@@ -27,7 +38,13 @@
     /* text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324; */
     height: 1em;
     font-family: 'Krona One', sans-serif;
-  }
+  }  
+.jumbotronHeadings {   
+    color: white;
+    font-size: 1.75rem;
+    font-family: 'Roboto';
+}
+
 
 #logoPackup {
     text-align: center;
@@ -58,13 +75,14 @@
     padding-right: 3em;
     padding-left: 3em;
 }
-
-
-.jumbotronHeadings {   
+.btn-primary:hover {
+    /* opacity: .5; */
     color: white;
-    font-size: 1.75rem;
-    font-family: 'Roboto';
+    background-color: #023859;
+    opacity: 0.8;
+    border-color:white;
 }
+
 
 .articleHeadings {
     /* color: darkorange; */
@@ -181,6 +199,9 @@ h6, .h6 {font-size: 1rem;}
     color: white;
     font-size: 0.8em;
     width: 215px;
+}
+#submitButton:hover{
+    background-color: #023859;
 }
 
 #Article7 {
