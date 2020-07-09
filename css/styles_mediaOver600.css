@@ -14,6 +14,7 @@
  * 1) change background of top section
  * 2) show transparent-article with the larger media query from the defaulted hide
  */
+
  @media screen and ( min-width: 600px ) {
 
     #Jumbotron {
@@ -33,13 +34,14 @@
     .jumbotronHeadings {   
         color: white;
         font-size: 2.5rem;
-        font-family: 'Krono One', sans-serif;
+        font: 'Montserrat';
+        /* font: 700 normal 'montserrat'; */
     }
     .TypewriterText {
         margin: auto;
         color: white;
         font: 700 normal 1.5em 'tahoma';
-        height: 1em;
+        height: 1.1em;
         font-family: 'Krona One', sans-serif;
       }
 
