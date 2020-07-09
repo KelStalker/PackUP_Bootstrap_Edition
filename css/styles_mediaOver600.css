@@ -52,14 +52,11 @@
         padding: 20px;
     }
 
-
     #TRANSPARENT-Article {
         background-color:transparent;
         height: 45vh;
         display: block;
     }
-
-
 
     #Article7 {
         display: flex;

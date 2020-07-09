@@ -4,12 +4,13 @@
 }
 
 .jumbotron {
-    height: 500px;
+    min-height: 475px;
+    height: 90vh;
     background-image:url("../img/Mountain_Night_cropped2.jpg");
     background-size: cover;
-    /* background-position: -300px -140px; */
+    background-position: center;
     opacity: 1;
-    background-color: darkred;
+    /* background-color: darkred; */
     background-repeat: no-repeat;
     text-align: center;
     font-size: 36px;
@@ -19,8 +20,7 @@
     text-align: top;
 }
 .TypewriterText {
-    margin: auto;
-    /* color: #D2D7D9; */
+    overflow: hidden;
     color: white;
     font: 700 normal 1em 'tahoma';
     /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
