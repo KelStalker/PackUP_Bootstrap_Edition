@@ -4,26 +4,18 @@
 }
 
 .jumbotron {
-    /* background-color: #969696; */
-    background-color: white;
+    height: 500px;
+    background-image:url("../img/Mountain_Night_cropped.jpg");
+    background-size: cover;
+    /* background-position: -300px -140px; */
+    opacity: 1;
+    background-color: darkred;
     background-repeat: no-repeat;
     text-align: center;
     font-size: 36px;
-    /* font-size: 1.2em; */
     color: white;
-    /* height: 80vh; */
-    min-height: 25em;
+    /* min-height: 25em; */
     padding-top: 2em;
-}
-
-/* Fullsize formatting (mediaQ below */
-#Jumbotron {
-    height: 500px;
-    background-image:url("../img/Mountain_Night.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: -300px -140px;
-    opacity: 1;
     text-align: top;
 }
 
