@@ -17,14 +17,18 @@
 
  @media screen and ( min-width: 600px ) {
 
-    #Jumbotron {
+
+    .jumbotron {
+        /* 150, 150, 150, 0 */
+       
         background-image:url("../img/Mountains_Day.jpg");
+        /* background: rgba(150, 150, 150, 0.5); */
         background-size: cover;
         background-attachment: fixed;
         background-repeat:no-repeat;
         background-position: center;
         opacity: 0.8;
-        background-color: transparent;
+        /* background-color: transparent; */
         text-align: center;
         font-size: 2rem;
         color: white;
@@ -48,6 +52,9 @@
     #logoPackup {
         text-align: left;
         font-size: 1.5rem;
+    }
+    #logoUp {
+        color:#023859;
     }
 
     .articleHeadings {

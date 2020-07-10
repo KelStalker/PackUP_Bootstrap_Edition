@@ -10,7 +10,6 @@
 #3F5773 >> 405773 - BACKGROUND BLUE (from original WAPTA site)  ** USE THIS **
 ***************************/
 
-
 *{
     font-family: Montserrat, sans-serif;
     text-align: center;
@@ -26,16 +25,17 @@
     background-repeat: no-repeat;
     text-align: center;
     font-size: 36px;
-    color: white;
+    /* color: white; */
     padding-top: 2em;
     text-align: top;
+    margin-bottom: 0.75em;
 }
 .TypewriterText {
     overflow: hidden;
     color: white;
     font: 700 normal 1em 'tahoma';
     /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
-    /* text-shadow: 2px 1px #222324, 2px 1px #222324, 2px 1px #222324; */
+    /* text-shadow: 1px 1px #222324, 1px 1px #222324, 1px 1px #222324; */
     height: 1.1em;
     font-family: 'Krona One', sans-serif;
   }  
@@ -48,17 +48,15 @@
 
 #logoPackup {
     text-align: center;
-    font-size: .7em;
-    padding-bottom: 1em;
+    font-size: .8em;
     font-weight: 900;
 }
 #logoPack {
     color: white;
-    /* padding-right: 0; */
 }
 #logoUp {
-    color: rgb(52, 67, 86);
-    padding-left: -20px;
+    color:#405773;
+    margin-left: -5px;
 }
 
 
@@ -86,6 +84,7 @@
 
 .articleHeadings {
     /* color: darkorange; */
+
     font-size: 1.6rem;
 }
 
@@ -117,13 +116,15 @@ h6, .h6 {font-size: 1rem;}
 
 #IPhone7Pic {
     max-width: 80%;
+    padding: 2em;
 }
 
 #Article1, #Article2, #Article4 {
     /* color: #254C77; */
     background-color: white;
+    color:#405773;
     border: solid white;
-    padding: 3em;
+    padding: 2em;
 }
 
 #Article3 {
@@ -181,9 +182,9 @@ h6, .h6 {font-size: 1rem;}
     padding: 30px;
     color: white;
 }
-::placeholder{
+/* ::placeholder{
     text-align: left;
-}
+} */
 .formFields{
     padding: 20px;
 }
