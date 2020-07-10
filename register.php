@@ -24,7 +24,8 @@ $sql = "INSERT INTO register (fname, lname, email) VALUES ('$first_name', '$last
 if(mysqli_query($link, $sql)){
     echo "Records added successfully.";
 } else{
-    echo "ERROR2: Could not able to execute $sql. " . mysqli_error($link);
+    echo "ERROR: Unable to execute $sql. " . mysqli_error($link);
+    
 }
  
 // Close connection
