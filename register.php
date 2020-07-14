@@ -10,6 +10,7 @@ server with default setting (user 'root' with no password) */
 $link = mysqli_connect("localhost", "getpacku_root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "getpacku_packup");
  
 // Check connection
+
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
