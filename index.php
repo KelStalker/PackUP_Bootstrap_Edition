@@ -36,7 +36,8 @@
 
             // pending paul attempt
             echo "<script type='text/javascript'>
-                alert('Thank you, your email has been received! We will be in contact with more information in the near future.');
+                // alert('Thank you, your email has been received! We will be in contact with more information in the near future.');
+                openModal();
             </script>";
 
             // copied from tutorial republic
@@ -186,7 +187,7 @@
  <!-- MODAL ************************************************* -->
 
 <!-- Trigger/Open The Modal -->
-<button id="modalBtn">Open Modal</button>
+<!-- <button id="modalBtn">Open Modal</button> -->
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
