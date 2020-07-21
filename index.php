@@ -6,9 +6,9 @@
 
         // local server connect string
         // $link = mysqli_connect("localhost", "root", "", "packup");
-        $link = mysqli_connect("localhost", "root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "packup");
+        // $link = mysqli_connect("localhost", "root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "getpacku_packup");
         // crocweb connect string
-        // $link = mysqli_connect("localhost", "getpacku_root", "A46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "getpacku_packup");
+        $link = mysqli_connect("localhost", "getpacku_root", "46c62c7d-f0cf-468d-a4b4-f1b0fd741540", "getpacku_packup");
         
         // Check connection
 
@@ -35,9 +35,14 @@
             // </script>";
 
             // pending paul attempt
+            // echo "<script type='text/javascript'>
+            //     alert('Thank you, your email has been received! We will be in contact with more information in the near future.');
+            //     // openModal();
+            // </script>";
             echo "<script type='text/javascript'>
-                // alert('Thank you, your email has been received! We will be in contact with more information in the near future.');
-                openModal();
+                $(document).ready(function(){
+                $('#myModal').modal('show');
+                });
             </script>";
 
             // copied from tutorial republic
@@ -169,7 +174,8 @@
                 your own personal packing lists.</p>
         </article>
 
-        <form id="formEmail" action="#formEmail" method="post">
+        <!-- <form id="formEmail" action="#formEmail" method="post"> -->
+        <form id="formEmail" method="post">
         <!-- <form id="formEmail" method="post"> -->
             <img src="./img/bouncing-arrow.gif" alt="Bouncing Down Arrow" id="BouncingArrow">
             <div class="formHeadings">Enter your email to be the first to know when the PackUp app is live!</div>
@@ -199,8 +205,8 @@
       <h2></h2>
     </div>
     <div class="modal-body">
-      <p>Confirmed.</p>
-      <p>Your name and email have been successfully added to the database.</p>
+      <strong>Thank you, your email has been received!</strong>
+      <p>We will be in contact with more information in the near future.</p>
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-secondary" id="modalClose"  data-dismiss="close">Close</button>

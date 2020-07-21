@@ -59,7 +59,7 @@ var closeBtn = document.getElementById("modalClose")
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btn.onclick = function() {
+submitButton.onclick = function() {
   modal.style.display = "block";
 }
 
